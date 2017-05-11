@@ -1,0 +1,443 @@
+/* line 1, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 10, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 17, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 26, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 30, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 36, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 40, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 52, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 56, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 62, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 70, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /home/stark/rails/birthday/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@import url("http://fonts.googleapis.com/css?family=Eater+Caps");
+ body {
+
+background: url('/assets/images.jpg');
+background-size: cover;
+color: beige;
+font-style: italic;
+
+font-family: cursive;
+font-weight: lighter;
+  margin: 0;
+  padding: 40px;
+}
+
+.table{
+   
+    width: 100%;
+    padding: 278px 301px;
+    padding-top: 90px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.th{
+    text-align: left;
+   
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tr:nth-child(even){background-color: silver,text}
+
+.container {
+  padding: 0;
+  width: 80%;
+  text-transform: uppercase;
+}
+<html>
+<style>
+.button {
+  border-radius: 4px;
+  background-color: yellow;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  text-decoration: none;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+.index{
+  tr:hover {background-color: #f5f5f5}
+}
+/* HEADER */
+
+.pull-right {
+  position: inline;
+  margin: 20px 20px 0 0;
+}
+
+.header {
+  margin: 0;
+  font-style: italic;
+  padding: 5px;
+font-family: cursive;
+color: beige;
+ 
+
+  text-align-last: center;
+}
+
+.header li {
+ display: inline;
+ margin-left: 30px;
+}
+
+.header img {
+  margin: 0 20px 0 0;
+  height: 80px;
+  width: 80px;
+}
+.header a {
+
+    font-size: 30px;
+    text-decoration: underline; 
+}
+
+.header a:hover {
+  color: #c91716;
+  text-decoration: none;   
+}
+
+/* ALBUMS */
+
+.album-info {
+  padding: 12px 24px 24px;
+  background-color: #F1f2f3;
+}
+
+.album-info h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.album-info p {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.item {
+  margin: 0;  
+  padding: 0;
+}
+
+.item:hover a {
+  color: #c91717;
+  text-decoration: none;
+}
+
+.photo {
+  margin: 0 0 80px;   
+}
+.photo img {
+  width: 100%;
+}
+
+
+.img{
+  background: url('/assets/Time-Machine.png');
+}
+
+/* GALLERY VIEW */
+
+.photos h1 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+.photo-info {
+  padding: 12px 24px 24px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.tb7 {
+  width: 221px;
+  background: transparent url('images/bg.jpg') no-repeat;
+  color : #747862;
+  height:20px;
+  border:0;
+  padding:4px 8px;
+  margin-bottom:0px;
+}
+.tb5 {
+  border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px;
+}
+.photo-info p {
+  margin: 0;
+}
+
+/* FORM PAGES */
+
+
+.form {
+  text-align:center;
+     color: beige;
+      
+    margin: 49px 451px;
+font-family: cursive;
+ border-radius:10px;
+  font-size: 16px;
+  width: 400px;
+
+}
+
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}
+input[type=text],
+input[type=email],
+input[type=password] {
+  color: black;
+  width: 100%;
+  border: 1px solid #E6E6E6;
+  border-radius: 10px; 
+  background-color: whitesmoke;
+  height: 40px;
+  margin: 6px auto;
+  text-indent: 10px;
+}
+
+.btn-submit {
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+   background-color: black;
+  padding: 3px 20px;
+  text-decoration: none;
+  text-align-last: center;
+
+  margin-top: 6px;
+}
+  
+/*  RESPONSIVE */
+
+@media screen and (max-width: 992px) {
+  .img-container img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .pull-right {
+    background-color: #f1f2f2;
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+
+  .pull-right ul {
+    margin: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+  }
+
+  .pull-right ul li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    width: 50%;
+  }
+
+  .pull-right ul li a {
+    display: block;
+    width: 100%;
+  }
+
+  .img-container {
+    height: 200px;
+  }
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
